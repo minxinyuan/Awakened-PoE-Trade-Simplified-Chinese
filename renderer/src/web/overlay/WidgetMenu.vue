@@ -33,11 +33,11 @@
       <div v-if="isEditing" class="text-gray-100 px-2 pb-1 whitespace-nowrap">
         <ui-toggle v-model="config.alwaysShow">{{ t('Show button for active widgets') }}</ui-toggle>
       </div>
-      <div v-else class="px-1 pb-1">
-        <textarea class="px-2 py-1.5 bg-gray-700 rounded resize-none block"
-          rows="1" spellcheck="false"
-          :placeholder="t('Price check (Ctrl + V)')" @input="handleItemPaste"></textarea>
-      </div>
+<!--      <div v-else class="px-1 pb-1">-->
+<!--        <textarea class="px-2 py-1.5 bg-gray-700 rounded resize-none block"-->
+<!--          rows="1" spellcheck="false"-->
+<!--          :placeholder="t('Price check (Ctrl + V)')" @input="handleItemPaste"></textarea>-->
+<!--      </div>-->
     </div>
   </widget>
 </template>
